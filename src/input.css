@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ct = custom */
+.ct-item-menu {
+    @apply h-full flex items-center font-bold text-base leading-[1.2rem] relative hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#4EBEFF] hover:to-[#0679BB] after:absolute after:bottom-0 after:left-300 hover:after:w-[1.5rem] after:h-[3px] after:bg-gradient-to-r after:from-[#4EBEFF] after:to-[#0679BB]
+}
